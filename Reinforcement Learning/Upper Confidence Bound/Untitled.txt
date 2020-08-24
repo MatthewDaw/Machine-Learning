@@ -1,0 +1,4 @@
+#Machine Learning, reinforcement learning, upper confidence bound
+This program uses upper confidence bound to determine in real-time which of nine advertisements is most effective at generating sales.
+
+Upper confidence bound begins by assuming each advertisement has the same upper bound for the effectiveness of its advertisement. As samples are collected the upper bounds are moved and the confidence around those bounds narrows. The algorithm favors the advertisement that has the highest upper confidence bound. As time goes on, the algorithm beings exploiting the best advertisement more and more until it effectively stops trying out the other possibilities.  

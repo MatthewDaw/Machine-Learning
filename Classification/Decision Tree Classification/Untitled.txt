@@ -1,0 +1,4 @@
+#Machine Learning, classification, Decision Tree Classification
+This program uses a decision tree to classify if a customer is likely or unlikely to buy an item from a certain store. 
+
+Decision tree works by determining point in certain variables where an event changes from being more likely to less likely. It then gives a hierarchy to these "turning" points that end up as a type of tree. The leaves of this tree are the different categories and the branches are rules that determine what goes into which category. This algorithm only has a single numerical output, that is the odds of someone buying a product.
